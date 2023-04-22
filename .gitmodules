@@ -1,0 +1,10 @@
+[submodule "ramomoliseblog/themes/themes/hugo-coder"]
+	path = ramomoliseblog/themes/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "ramomoliseblog/public"]
+	path = ramomoliseblog/public
+	url = https://github.com/ramomolise/ramomolise.github.io.git
+	branch = main
+[submodule "ramomoliseblog/themes/hugo-coder"]
+	path = ramomoliseblog/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git

@@ -1,0 +1,66 @@
+baseURL = "https://ramomolise.github.io/"
+languageCode = "en-us"
+title = "Ramo Molise"
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+#disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Ramo Molise"
+  info = "Linux Enthusiast & Network Engineer"
+  description = "Ramo Molise's personal website"
+  keywords = "blog,developer,personal"
+  #avatarurl = "images/avatar.jpg"
+  gravatar = "admin@ramomolise.co.za"
+
+  #favicon_32 = "/img/favicon-32x32.png"
+  #favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/ramomolise/"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/ramomolise/"
+  
+[[params.social]]
+  name = "Instagram"
+  icon = "fa fa-instagram fa-2x"
+  weight = 1
+  url = "https://www.instagram.com/ramoliving/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+
